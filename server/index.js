@@ -9,5 +9,5 @@ app.use(express.json());
 
 app.use(indexRoutes);
 app.use(tasksRoutes);
-app.listen(PORT)
+app.listen(PORT);
 console.log("server is runnig");
